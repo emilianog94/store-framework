@@ -72,7 +72,7 @@
     "tab-list.item#home2": {
         "props":{
             "label": "Instagram",
-            "tabId":"electronics",
+            "tabId":"instagram",
             "defaultActiveTab":true
         }
     },
@@ -91,7 +91,7 @@
             "rich-text#home2"
         ],
         "props":{
-            "tabId":"electronics"
+            "tabId":"instagram"
         }
     },
 

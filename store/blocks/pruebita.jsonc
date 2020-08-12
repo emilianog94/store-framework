@@ -1,0 +1,14 @@
+{
+    "store.custom#pruebita":{
+        "blocks":[
+            "rich-text#prueba"
+        ]
+    },
+
+    "rich-text#prueba":{
+        "props":{
+            "text":"Esto es una prueba!"
+        }
+    }
+}
+

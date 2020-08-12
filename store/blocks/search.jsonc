@@ -12,11 +12,11 @@
 
   "search-result-layout.desktop": {
     "children": [
-      "flex-layout.row#top",
-      "flex-layout.row#results",
       "breadcrumb.search",
       "search-title.v2",
+      "flex-layout.row#top",
       "search-fetch-previous",
+      "flex-layout.row#results",
       "search-fetch-more"
     ]
   },

@@ -1,0 +1,25 @@
+{
+    "store.custom#landing":{
+        "blocks":[
+            "image#landingbanner",
+            "search-result-layout.customQuery"
+        ]
+    },
+
+    "image#landingbanner": {
+        "props": {
+            "minWidth":"100%",
+            "src":"https://image.shutterstock.com/image-photo/man-using-laptop-computer-working-260nw-721758364.jpg"
+        }
+    },
+
+    "search-result-layout.customQuery":{
+        "props":{
+            "querySchema":{
+                "orderByField":"OrderByReleaseDateDESC",
+                "hideUnavailableItems": false,
+                "maxItemsPerPage": 8
+            }
+        }
+    }
+}

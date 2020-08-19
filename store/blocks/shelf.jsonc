@@ -5,7 +5,7 @@
         "product-summary.shelf"
     ],
     "props": {
-      "category": 1,
+      "category": 2,
       "orderBy": "OrderByTopSaleDESC",
       "paginationDotsVisibility": "desktopOnly",
       "productList": {
@@ -25,10 +25,16 @@
       "product-summary-name",
       "product-rating-inline",
       "product-summary-space",
-      "product-summary-price",
+      "product-selling-price",
       "product-identifier.summary",
       "product-summary-buy-button"
     ]
+  },
+
+  "product-selling-price": {
+    "props":{
+      "message": "El precio es de {sellingPriceValue}" 
+    }
   }
 
 }
